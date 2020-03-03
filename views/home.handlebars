@@ -1,0 +1,14 @@
+<h1 style="text-align: center"> Bem vindo a lista de postagens</h1>
+<hr><hr>
+
+<h2 style="text-align: center">Lista de postagens</h2>
+<hr><hr>
+
+{{#each posts}}
+
+    <h1>{{titulo}}</h1>
+    <p>{{conteudo}}</p>
+    <a href="/deletar/{{id}}"><button>Deletar</button></a>
+    <hr>
+{{/each}}
+
